@@ -36,14 +36,14 @@ int main(int argc, char* argv[])
 	// Variables for offsets and hack.
 	DWORD dwEntityList = 0x4D43AC4;		// List of entities offset.
 	DWORD dwLocalPlayer = 0xD2FB94;		// Local player offset.
-	DWORD m_iTeamNum = 0xF4;			// Team number offset.
-	DWORD dwCurrentEntity;				// Current entity of the entity list.
-	DWORD localPlayer;					// Local player.
-	DWORD m_bSpotted = 0x93D;			// Entity spotted offset.
-	int entityTeam = 0;					// Entity's team number.
-	int localTeam = 0;					// Local player's team number.
-	char cStopHack = 0;					// Hack kill switch.
-	bool bSpotted = true;				// Value written to m_bSpotted offset.
+	DWORD m_iTeamNum = 0xF4;		// Team number offset.
+	DWORD dwCurrentEntity;			// Current entity of the entity list.
+	DWORD localPlayer;			// Local player.
+	DWORD m_bSpotted = 0x93D;		// Entity spotted offset.
+	int entityTeam = 0;			// Entity's team number.
+	int localTeam = 0;			// Local player's team number.
+	char cStopHack = 0;			// Hack kill switch.
+	bool bSpotted = true;			// Value written to m_bSpotted offset.
 
 	ReadProcessMemory(hHandle, (LPVOID)(dwClient + dwLocalPlayer), &localPlayer, sizeof(localPlayer), NULL);
 	// Hack loop.
