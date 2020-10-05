@@ -5,7 +5,7 @@ Download the project and compile it.
 ### Prerequisites
 None except a copy of Counter-Strike: Global Offensive.
 ### Insecure mode
-Using insecure mode is advised as this hack may be detected by VAC.
+Using insecure mode will ensure you don't get banned by Valve Anti-Cheat.
 To use insecure mode:
 ```
 right-click on Counter-Strike: Global Offensive in your Steam Library,
@@ -15,7 +15,7 @@ add '-insecure',
 click on 'OK'.
 ```
 ### Using the hack
-Start the hack once you're in a Counter-Strike: Global Offensive game.
+Join a CS: GO game (or create one with bots), then launch the hack.
 Once the hack is launched without error:
 ```
 Press F1 to enable/disable it.
