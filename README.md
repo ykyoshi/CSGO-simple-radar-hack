@@ -1,4 +1,4 @@
-# CSGO Simple Radar Hack
+# CS:GO simple radar hack
 Simple and compact (~55 lines of code) radar hack for Counter-Strike: Global Offensive.
 ## Getting Started
 Download the project and compile it.
